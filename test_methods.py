@@ -1,3 +1,6 @@
+#! /usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import requests
 
 
@@ -11,5 +14,5 @@ def test():
     print("Проверка метода options " + str(requests.options('http://localhost:9000/get')))
 
 
-if __name__ == '__main__':
-    test()
+
+test()
